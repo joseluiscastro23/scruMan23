@@ -13,6 +13,6 @@ namespace scruMan23
     {
         // GET: api/test
         [HttpGet]
-        public IEnumerable<string> Get() => new string[] { "Test 1", "Test 2" };
+        public IEnumerable<string> Get() => new string[] { "This", "Is", "Working..." };
     }
 }
